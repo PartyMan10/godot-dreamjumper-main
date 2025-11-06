@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdk1410jqoif5"]
+
+[ext_resource type="Texture2D" uid="uid://bqcat416dcte" path="res://sunny-land/assets/8aCQkW.jpg" id="1_pq57m"]
+[ext_resource type="Texture2D" uid="uid://cn5kx836e1hql" path="res://sunny-land/assets/sprites/instructions.png" id="2_swrud"]
+
+[node name="intruction" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(577, 323)
+scale = Vector2(0.8275362, 0.77804875)
+texture = ExtResource("1_pq57m")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(581, 328.99997)
+scale = Vector2(3.9647884, 3.7738092)
+texture = ExtResource("2_swrud")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(1082, 351)
+scale = Vector2(3.9647884, 3.7738092)

@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxkhqhet1lvlj"]
+
+[ext_resource type="Texture2D" uid="uid://crrfo4wpjfmce" path="res://Sunny Land Collection Files/Assets/Environments/Jungle/preview.png" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://cn5kx836e1hql" path="res://sunny-land/assets/sprites/instructions.png" id="2_0e48y"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(589, 323)
+scale = Vector2(1.8942307, 2.6666667)
+texture = ExtResource("1_wtcfe")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(541, 355)
+scale = Vector2(4.116197, 4.0773807)
+texture = ExtResource("2_0e48y")
